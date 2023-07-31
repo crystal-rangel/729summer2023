@@ -1,0 +1,55 @@
+<!ENTITY % pname "(firstname, middlename?, lastname, (html:a)?)">
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT middlename (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+
+<!ELEMENT html:a (html:img)*>
+<!ATTLIST html:a 
+    href CDATA #IMPLIED
+    style CDATA #IMPLIED>
+
+<!ELEMENT html:img EMPTY>
+<!ATTLIST html:img 
+    src CDATA #IMPLIED
+    style CDATA #IMPLIED
+    alt CDATA #IMPLIED>
+
+<!ELEMENT shortstory (cpmetadata, dcmetadata, frontmatter, maintext)>
+<!ATTLIST shortstory 
+    xmlns:html CDATA #FIXED "http://www.w3.org/1999/xhtml">
+
+<!ELEMENT cpmetadata (cp:creator, cp:department, cp:date, cp:recNum)>
+<!ATTLIST cpmetadata xmlns:cp CDATA #FIXED "https://crystalrangel.000webhostapp.com/729/crystalsmetadata/1.0/">
+<!ELEMENT dcmetadata (dc:title | dc:creator | dc:subject | dc:description | dc:publisher | dc:contributor | dc:date | dc:type | dc:format | dc:identifier | dc:source | dc:language | dc:relation | dc:coverage | dc:rights)*>
+<!ATTLIST dcmetadata xmlns:dc CDATA #FIXED "http://purl.org/dc/elements/1.1/">
+<!ELEMENT cp:creator (#PCDATA)>
+<!ATTLIST cp:creator email_address CDATA #REQUIRED> 
+<!ELEMENT cp:department (#PCDATA)>
+<!ELEMENT cp:date (#PCDATA)>
+<!ELEMENT cp:recNum (#PCDATA)>
+<!ELEMENT dc:title (#PCDATA)>
+<!ELEMENT dc:creator (#PCDATA)>
+<!ELEMENT dc:subject (#PCDATA)>
+<!ELEMENT dc:description (#PCDATA)>
+<!ELEMENT dc:publisher (#PCDATA)>
+<!ELEMENT dc:contributor (#PCDATA)>
+<!ELEMENT dc:date (#PCDATA)>
+<!ELEMENT dc:type (#PCDATA)>
+<!ELEMENT dc:format (#PCDATA)>
+<!ELEMENT dc:identifier (#PCDATA)>
+<!ELEMENT dc:source (#PCDATA)>
+<!ELEMENT dc:language (#PCDATA)>
+<!ELEMENT dc:relation (#PCDATA)>
+<!ELEMENT dc:coverage (#PCDATA)>
+<!ELEMENT dc:rights (#PCDATA)>
+
+<!ELEMENT frontmatter (html:img, titleinfo)>
+<!ELEMENT titleinfo (title, date, author)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author %pname;>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT maintext (firstparagraph, paragraph*)>
+<!ELEMENT firstparagraph (#PCDATA | speech)*> 
+<!ELEMENT paragraph (#PCDATA | speech)*>
+<!ELEMENT speech (#PCDATA)>
+

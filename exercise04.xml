@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE lyrics [
+<!ELEMENT lyrics (title, author, year, content)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT content (line*)>
+<!ELEMENT line (#PCDATA)>
+]>
+<lyrics>
+<title>Imagine</title>
+<author>John Lennon</author>
+<year>1971</year>
+<content>
+<line>Imagine there's no heaven</line>
+
+<line>It's easy if you try</line>
+<line>No hell below us</line>
+
+<line>Above us only sky</line>
+<line>Imagine all the people</line>
+
+<line>Living for today...</line>
+<line>Imagine there's no countries</line>
+
+<line>It isn't hard to do</line>
+<line>Nothing to kill or die for</line>
+    
+<line>And no religion too</line>
+<line>Imagine all the people</line>
+
+<line>Living life in peace...</line>
+<line>Imagine no possessions</line>
+
+<line>I wonder if you can</line>
+<line>No need for greed or hunger</line>
+
+<line>A brotherhood of man</line>
+<line>Imagine all the people</line>
+
+<line>Sharing all the world...</line>
+<line>You may say I'm a dreamer</line>
+
+<line>But I'm not the only one</line>
+<line>I hope someday you'll join us</line>
+
+<line>And the world will be as one</line>
+</content>
+</lyrics>

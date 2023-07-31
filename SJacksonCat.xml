@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="SJacksonCat.css"?>
+<Collections xmlns:html="http://www.w3.org/1999/xhtml">
+<author>
+		<html:img src="shirley-jackson.jpg" style="max-width: 120px; height: auto;"/>
+		<name>Shirley Jackson</name>	
+		<year>(1916 - 1965)</year>
+</author>
+<shortstories>
+<shortstory>
+		<ssTitle> ... ...</ssTitle>
+		<firstYearOfPublication> ... ... </firstYearOfPublication>
+        <publisher> ... ... </publisher>
+</shortstory>
+<shortstory>
+		<ssTitle> ... ...</ssTitle>	
+		<firstYearOfPublication> ... ... </firstYearOfPublication>
+        <publisher> ... ... </publisher>
+</shortstory>
+<shortstory>
+		<ssTitle><html:a href="Jackson.TheLottery.Namespace.xml">The Lottery</html:a></ssTitle>
+		<firstYearOfPublication>(1948)</firstYearOfPublication>
+        <publisher>The New Yorker</publisher>
+</shortstory>
+<shortstory>
+		<ssTitle>Lucky to Get Away</ssTitle>
+		<firstYearOfPublication>(1953)</firstYearOfPublication>
+        <publisher>Woman's Day</publisher>
+	</shortstory>
+<shortstory>
+		<ssTitle>The Missing Girl</ssTitle>
+		<firstYearOfPublication>(1957)</firstYearOfPublication>
+        <publisher>The Magazine of Fantasy and Science Fiction</publisher>
+	</shortstory>
+<shortstory>
+		<ssTitle> ... ...</ssTitle>
+		<firstYearOfPublication> ... ... </firstYearOfPublication>
+        <publisher> ... ... </publisher>
+</shortstory>
+<shortstory>
+		<ssTitle> ... ...</ssTitle>
+		<firstYearOfPublication> ... ... </firstYearOfPublication>
+        <publisher> ... ... </publisher>
+</shortstory>
+</shortstories>
+</Collections>

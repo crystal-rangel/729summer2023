@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone ="no"?>
+<?xml-stylesheet type="text/css" href="shortstory02.css"?>
+<!DOCTYPE shortstory SYSTEM "shortstory02.dtd">
+
+<shortstory xmlns:html="http://www.w3.org/1999/xhtml">
+<cpmetadata xmlns:cp="https://crystalrangel.000webhostapp.com/729/crystalsmetadata/1.0/">
+	<cp:creator email_address="crystal.rangel05@qmail.cuny.edu">Crystal L. Rangel</cp:creator>	
+	<cp:department>Special Collections Cataloging</cp:department>
+    <cp:date>2023-07-24</cp:date>
+    <cp:recNum>SS-0002</cp:recNum>
+</cpmetadata>
+<dcmetadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>The Lottery</dc:title>
+    <dc:creator>Shirley Jackson</dc:creator>
+    <dc:subject>PS3519.A392</dc:subject>
+    <dc:subject>Horror tales, American.</dc:subject>
+    <dc:description>The Lottery is a short story written by Shirley Jackson and first published in The New Yorker on June 26, 1948 that describes a fictional small American community which observes an annual tradition known as "the lottery", in which a member of the community is selected by chance and stoned to death to ensure a good harvest and purge the town of bad omens.</dc:description>
+    <dc:publisher>crystalrangel.000webhostapp.com</dc:publisher>
+    <dc:date>1948</dc:date>
+    <dc:type>World Wide Web resource</dc:type>
+    <dc:type>electronic resource</dc:type>
+    <dc:type>text/xml</dc:type>
+    <dc:format>25 kb</dc:format>
+    <dc:identifier>https://crystalrangel.000webhostapp.com/729/Jackson.TheLottery.Namespace.xml</dc:identifier>
+    <dc:source>St. Louis Public Schools, https://www.slps.org/cms/lib/MO01001157/Centricity/Domain/10749/The_Lottery.pdf</dc:source>
+    <dc:language>eng</dc:language>
+    <dc:relation>Browser with XML parser</dc:relation>
+    <dc:relation>Mode of access: Internet via World Wide Web</dc:relation>
+    <dc:rights>The only legal and authorized use of these files is for the nonprofit production. The copyright for these files is the sole property of the original owner.</dc:rights>
+</dcmetadata>
+<frontmatter>
+    <html:img src="theLottery.jpg" style="float: center; max-width: 240px; height: auto;"/>
+    <titleinfo>
+        <title>The Lottery</title>
+        <date>1948</date>
+        <author>
+            <firstname>Shirley</firstname>
+            <lastname>Jackson</lastname>
+            <html:a href="SJacksonCat.xml">
+                <html:img src="shirley-jackson.jpg" alt="Click to see our catalog of books written by the same author." style="margin-left: 20px; max-width: 120px; height: auto;"/>
+            </html:a>
+        </author>
+    </titleinfo>
+</frontmatter>
+<maintext>
+<firstparagraph>The morning of June 27th was clear and sunny, with the fresh warmth of a full-summer day; the flowers
+were blossoming profusely and the grass was richly green. The people of the village began to gather in
+the square, between the post office and the bank, around ten o'clock; in some towns there were so many
+people that the lottery took two days and had to be started on June 2th. but in this village, where there
+were only about three hundred people, the whole lottery took less than two hours, so it could begin at ten
+o'clock in the morning and still be through in time to allow the villagers to get home for noon dinner.</firstparagraph>
+
+<paragraph>The children assembled first, of course. School was recently over for the summer, and the feeling of
+liberty sat uneasily on most of them; they tended to gather together quietly for a while before they broke
+into boisterous play. and their talk was still of the classroom and the teacher, of books and reprimands.
+Bobby Martin had already stuffed his pockets full of stones, and the other boys soon followed his
+example, selecting the smoothest and roundest stones; Bobby and Harry Jones and Dickie Delacroix-- the
+villagers pronounced this name "Dellacroy"--eventually made a great pile of stones in one corner of the
+square and guarded it against the raids of the other boys. The girls stood aside, talking among themselves,
+looking over their shoulders at rolled in the dust or clung to the hands of their older brothers or sisters.</paragraph>
+
+<paragraph>Soon the men began to gather. surveying their own children, speaking of planting and rain, tractors and
+taxes. They stood together, away from the pile of stones in the corner, and their jokes were quiet and they
+smiled rather than laughed. The women, wearing faded house dresses and sweaters, came shortly after
+their menfolk. They greeted one another and exchanged bits of gossip as they went to join their husbands.
+Soon the women, standing by their husbands, began to call to their children, and the children came
+reluctantly, having to be called four or five times. Bobby Martin ducked under his mother's grasping hand
+and ran, laughing, back to the pile of stones. His father spoke up sharply, and Bobby came quickly and
+took his place between his father and his oldest brother.</paragraph>
+
+<paragraph>The lottery was conducted--as were the square dances, the teen club, the Halloween program--by Mr.
+Summers. who had time and energy to devote to civic activities. He was a round-faced, jovial man and he
+ran the coal business, and people were sorry for him. because he had no children and his wife was a
+scold. When he arrived in the square, carrying the black wooden box, there was a murmur of
+conversation among the villagers, and he waved and called. <speech>"Little late today, folks."</speech> The postmaster, Mr.
+Graves, followed him, carrying a three- legged stool, and the stool was put in the center of the square and
+Mr. Summers set the black box down on it. The villagers kept their distance, leaving a space between
+themselves and the stool. and when Mr. Summers said, <speech>"Some of you fellows want to give me a hand?"</speech>
+there was a hesitation before two men. Mr. Martin and his oldest son, Baxter. came forward to hold the
+box steady on the stool while Mr. Summers stirred up the papers inside it.</paragraph>
+
+<paragraph>The original paraphernalia for the lottery had been lost long ago, and the black box now resting on the
+stool had been put into use even before Old Man Warner, the oldest man in town, was born. Mr.
+Summers spoke frequently to the villagers about making a new box, but no one liked to upset even as
+much tradition as was represented by the black box. There was a story that the present box had been
+made with some pieces of the box that had preceded it, the one that had been constructed when the first
+people settled down to make a village here. Every year, after the lottery, Mr. Summers began talking
+again about a new box, but every year the subject was allowed to fade off without anything's being done.
+The black box grew shabbier each year: by now it was no longer completely black but splintered badly
+along one side to show the original wood color, and in some places faded or stained.</paragraph>
+
+<paragraph>Mr. Martin and his oldest son, Baxter, held the black box securely on the stool until Mr. Summers had
+stirred the papers thoroughly with his hand. Because so much of the ritual had been forgotten or
+discarded, Mr. Summers had been successful in having slips of paper substituted for the chips of wood
+that had been used for generations. Chips of wood, Mr. Summers had argued. had been all very well
+when the village was tiny, but now that the population was more than three hundred and likely to keep on
+growing, it was necessary to use something that would fit more easily into he black box. The night before
+the lottery, Mr. Summers and Mr. Graves made up the slips of paper and put them in the box, and it was
+then taken to the safe of Mr. Summers' coal company and locked up until Mr. Summers was ready to take
+it to the square next morning. The rest of the year, the box was put way, sometimes one place, sometimes
+another; it had spent one year in Mr. Graves's barn and another year underfoot in the post office. and
+sometimes it was set on a shelf in the Martin grocery and left there.</paragraph>
+
+<paragraph>There was a great deal of fussing to be done before Mr. Summers declared the lottery open. There were
+the lists to make up--of heads of families. heads of households in each family. members of each
+household in each family. There was the proper swearing-in of Mr. Summers by the postmaster, as the
+official of the lottery; at one time, some people remembered, there had been a recital of some sort,
+performed by the official of the lottery, a perfunctory. tuneless chant that had been rattled off duly each
+year; some people believed that the official of the lottery used to stand just so when he said or sang it,
+others believed that he was supposed to walk among the people, but years and years ago this part of the
+ritual had been allowed to lapse. There had been, also, a ritual salute, which the official of the lottery had
+had to use in addressing each person who came up to draw from the box, but this also had changed with
+time, until now it was felt necessary only for the official to speak to each person approaching. Mr.
+Summers was very good at all this; in his clean white shirt and blue jeans. with one hand resting
+carelessly on the black box. he seemed very proper and important as he talked interminably to Mr. Graves
+and the Martins.</paragraph>
+
+<paragraph>Just as Mr. Summers finally left off talking and turned to the assembled villagers, Mrs. Hutchinson came
+hurriedly along the path to the square, her sweater thrown over her shoulders, and slid into place in the
+back of the crowd. <speech>"Clean forgot what day it was,"</speech> she said to Mrs. Delacroix, who stood next to her, and
+they both laughed softly. <speech>"Thought my old man was out back stacking wood,"</speech> Mrs. Hutchinson went on.
+<speech>"and then I looked out the window and the kids was gone, and then I remembered it was the twenty-
+seventh and came a-running."</speech> She dried her hands on her apron, and Mrs. Delacroix said, <speech>"You're in time,
+though. They're still talking away up there."</speech></paragraph>
+
+<paragraph>Mrs. Hutchinson craned her neck to see through the crowd and found her husband and children standing
+near the front. She tapped Mrs. Delacroix on the arm as a farewell and began to make her way through
+the crowd. The people separated good-humoredly to let her through: two or three people said. in voices
+just loud enough to be heard across the crowd, <speech>"Here comes your, Missus, Hutchinson,"</speech> and <speech>"Bill, she
+made it after all."</speech> Mrs. Hutchinson reached her husband, and Mr. Summers, who had been waiting, said
+cheerfully. <speech>"Thought we were going to have to get on without you, Tessie."</speech> Mrs. Hutchinson said.
+grinning, <speech>"Wouldn't have me leave m'dishes in the sink, now, would you. Joe?,"</speech> and soft laughter ran
+through the crowd as the people stirred back into position after Mrs. Hutchinson's arrival.</paragraph>
+
+<paragraph><speech>"Well, now."</speech> Mr. Summers said soberly, <speech>"guess we better get started, get this over with, so's we can go
+back to work. Anybody ain't here?"</speech></paragraph>
+
+<paragraph><speech>"Dunbar."</speech> several people said. <speech>"Dunbar. Dunbar."</speech></paragraph>
+
+<paragraph>Mr. Summers consulted his list. <speech>"Clyde Dunbar."</speech> he said. <speech>"That's right. He's broke his leg, hasn't he?
+Who's drawing for him?"</speech></paragraph>
+
+<paragraph><speech>"Me. I guess,"</speech> a woman said. and Mr. Summers turned to look at her. <speech>"Wife draws for her husband."</speech> Mr.
+Summers said. <speech>"Don't you have a grown boy to do it for you, Janey?"</speech> Although Mr. Summers and
+everyone else in the village knew the answer perfectly well, it was the business of the official of the
+lottery to ask such questions formally. Mr. Summers waited with an expression of polite interest while
+Mrs. Dunbar answered.</paragraph>
+
+<paragraph><speech>"Horace's not but sixteen vet."</speech> Mrs. Dunbar said regretfully. <speech>"Guess I gotta fill in for the old man this
+year."</speech></paragraph>
+
+<paragraph><speech>"Right."</speech> Sr. Summers said. He made a note on the list he was holding. Then he asked, <speech>"Watson boy
+drawing this year?"</speech></paragraph>
+
+<paragraph>A tall boy in the crowd raised his hand. <speech>"Here,"</speech> he said. <speech>"I'm drawing for my mother and me."</speech> He blinked
+his eyes nervously and ducked his head as several voices in the crowd said things like <speech>"Good fellow,
+lack."</speech> and <speech>"Glad to see your mother's got a man to do it."</speech></paragraph>
+
+<paragraph><speech>"Well,"</speech> Mr. Summers said, <speech>"guess that's everyone. Old Man Warner make it?"</speech></paragraph>
+
+<paragraph><speech>"Here,"</speech> a voice said. and Mr. Summers nodded.</paragraph>
+
+<paragraph>A sudden hush fell on the crowd as Mr. Summers cleared his throat and looked at the list. <speech>"All ready?"</speech> he
+called. <speech>"Now, I'll read the names--heads of families first--and the men come up and take a paper out of
+the box. Keep the paper folded in your hand without looking at it until everyone has had a turn.
+Everything clear?"</speech></paragraph>
+
+<paragraph>The people had done it so many times that they only half listened to the directions: most of them were
+quiet. wetting their lips. not looking around. Then Mr. Summers raised one hand high and said, <speech>"Adams."</speech>
+A man disengaged himself from the crowd and came forward. <speech>"Hi. Steve."</speech> Mr. Summers said. and Mr.
+Adams said. <speech>"Hi. Joe."</speech> They grinned at one another humorlessly and nervously. Then Mr. Adams reached
+into the black box and took out a folded paper. He held it firmly by one corner as he turned and went
+hastily back to his place in the crowd. where he stood a little apart from his family. not looking down at
+his hand.</paragraph>
+
+<paragraph><speech>"Allen."</speech> Mr. Summers said. <speech>"Anderson.... Bentham."</speech></paragraph>
+
+<paragraph><speech>"Seems like there's no time at all between lotteries any more."</speech> Mrs. Delacroix said to Mrs. Graves in the
+back row.</paragraph>
+
+<paragraph><speech>"Seems like we got through with the last one only last week."</speech></paragraph>
+
+<paragraph><speech>"Time sure goes fast,"</speech></paragraph>
+
+<paragraph><speech>"Clark.... Delacroix"</speech></paragraph>
+
+<paragraph><speech>"There goes my old man."</speech> Mrs. Delacroix said. She held her breath while her husband went forward.</paragraph>
+
+<paragraph><speech>"Dunbar,"</speech> Mr. Summers said, and Mrs. Dunbar went steadily to the box while one of the women said.
+<speech>"Go on. Janey,"</speech> and another said, <speech>"There she goes."</speech></paragraph>
+
+<paragraph><speech>"We're next."</speech> Mrs. Graves said. She watched while Mr. Graves came around from the side of the box,
+greeted Mr. Summers gravely and selected a slip of paper from the box. By now, all through the crowd
+there were men holding the small folded papers in their large hand. turning them over and over nervously
+Mrs. Dunbar and her two sons stood together, Mrs. Dunbar holding the slip of paper.</paragraph>
+
+<paragraph><speech>"Harburt.... Hutchinson."</speech></paragraph>
+
+<paragraph><speech>"Get up there, Bill,"</speech> Mrs. Hutchinson said. and the people near her laughed.</paragraph>
+
+<paragraph><speech>"Jones."</speech></paragraph>
+
+<paragraph><speech>"They do say,"</speech> Mr. Adams said to Old Man Warner, who stood next to him, <speech>"that over in the north
+village they're talking of giving up the lottery."</speech></paragraph>
+
+<paragraph>Old Man Warner snorted. <speech>"Pack of crazy fools,"</speech> he said. <speech>"Listening to the young folks, nothing's good
+enough for them. Next thing you know, they'll be wanting to go back to living in caves, nobody work any
+more, live hat way for a while. Used to be a saying about 'Lottery in June, corn be heavy soon.' First thing
+you know, we'd all be eating stewed chickweed and acorns. There's always been a lottery,"</speech> he added
+petulantly. <speech>"Bad enough to see young Joe Summers up there joking with everybody."</speech></paragraph>
+
+<paragraph><speech>"Some places have already quit lotteries."</speech> Mrs. Adams said.</paragraph>
+
+<paragraph><speech>"Nothing but trouble in that,"</speech> Old Man Warner said stoutly. <speech>"Pack of young fools."</speech></paragraph>
+
+<paragraph><speech>"Martin."</speech> And Bobby Martin watched his father go forward. <speech>"Overdyke.... Percy."</speech></paragraph>
+
+<paragraph><speech>"I wish they'd hurry,"</speech> Mrs. Dunbar said to her older son. <speech>"I wish they'd hurry."</speech></paragraph>
+
+<paragraph><speech>"They're almost through,"</speech> her son said.</paragraph>
+
+<paragraph><speech>"You get ready to run tell Dad,"</speech> Mrs. Dunbar said.</paragraph>
+
+<paragraph>Mr. Summers called his own name and then stepped forward precisely and selected a slip from the box.
+Then he called, <speech>"Warner."</speech></paragraph>
+
+<paragraph><speech>"Seventy-seventh year I been in the lottery,"</speech> Old Man Warner said as he went through the crowd.
+<speech>"Seventy-seventh time."</speech></paragraph>
+
+<paragraph><speech>"Watson"</speech> The tall boy came awkwardly through the crowd. Someone said, <speech>"Don't be nervous, Jack,"</speech> and
+Mr. Summers said, <speech>"Take your time, son."</speech></paragraph>
+
+<paragraph><speech>"Zanini."</speech></paragraph>
+
+<paragraph>After that, there was a long pause, a breathless pause, until Mr. Summers. holding his slip of paper in the
+air, said, <speech>"All right, fellows."</speech> For a minute, no one moved, and then all the slips of paper were opened.
+Suddenly, all the women began to speak at once, saving. <speech>"Who is it?,"</speech> <speech>"Who's got it?,"</speech> <speech>"Is it the
+Dunbars?,"</speech> <speech>"Is it the Watsons?"</speech> Then the voices began to say, <speech>"It's Hutchinson. It's Bill,"</speech> <speech>"Bill
+Hutchinson's got it."</speech></paragraph>
+
+<paragraph><speech>"Go tell your father,"</speech> Mrs. Dunbar said to her older son.</paragraph>
+
+<paragraph>People began to look around to see the Hutchinsons. Bill Hutchinson was standing quiet, staring down at
+the paper in his hand. Suddenly. Tessie Hutchinson shouted to Mr. Summers. <speech>"You didn't give him time
+enough to take any paper he wanted. I saw you. It wasn't fair!"</speech></paragraph>
+
+<paragraph><speech>"Be a good sport, Tessie."</speech> Mrs. Delacroix called, and Mrs. Graves said, <speech>"All of us took the same chance."</speech></paragraph>
+
+<paragraph><speech>"Shut up, Tessie,"</speech> Bill Hutchinson said.</paragraph>
+
+<paragraph><speech>"Well, everyone,"</speech> Mr. Summers said, <speech>"that was done pretty fast, and now we've got to be hurrying a little
+more to get done in time."</speech> He consulted his next list. <speech>"Bill,"</speech> he said, <speech>"you draw for the Hutchinson
+family. You got any other households in the Hutchinsons?"</speech></paragraph>
+
+<paragraph><speech>"There's Don and Eva,"</speech> Mrs. Hutchinson yelled. <speech>"Make them take their chance!"</speech></paragraph>
+
+<paragraph><speech>"Daughters draw with their husbands' families, Tessie,"</speech> Mr. Summers said gently. <speech>"You know that as
+well as anyone else."</speech></paragraph>
+
+<paragraph><speech>"It wasn't fair,"</speech> Tessie said.</paragraph>
+
+<paragraph><speech>"I guess not, Joe."</speech> Bill Hutchinson said regretfully. <speech>"My daughter draws with her husband's family; that's
+only fair. And I've got no other family except the kids."</speech></paragraph>
+
+<paragraph><speech>"Then, as far as drawing for families is concerned, it's you,"</speech> Mr. Summers said in explanation, <speech>"and as far
+as drawing for households is concerned, that's you, too. Right?"</speech></paragraph>
+
+<paragraph><speech>"Right,"</speech> Bill Hutchinson said.</paragraph>
+
+<paragraph><speech>"How many kids, Bill?"</speech> Mr. Summers asked formally.</paragraph>
+
+<paragraph><speech>"Three,"</speech> Bill Hutchinson said.</paragraph>
+
+<paragraph><speech>"There's Bill, Jr., and Nancy, and little Dave. And Tessie and me."</speech></paragraph>
+
+<paragraph><speech>"All right, then,"</speech> Mr. Summers said. <speech>"Harry, you got their tickets back?"</speech></paragraph>
+
+<paragraph>Mr. Graves nodded and held up the slips of paper. <speech>"Put them in the box, then,"</speech> Mr. Summers directed.
+<speech>"Take Bill's and put it in."</speech></paragraph>
+
+<paragraph><speech>"I think we ought to start over,"</speech> Mrs. Hutchinson said, as quietly as she could. <speech>"I tell you it wasn't fair.
+You didn't give him time enough to choose. Everybody saw that."</speech></paragraph>
+
+<paragraph>Mr. Graves had selected the five slips and put them in the box. and he dropped all the papers but those
+onto the ground. where the breeze caught them and lifted them off.</paragraph>
+
+<paragraph><speech>"Listen, everybody,"</speech> Mrs. Hutchinson was saying to the people around her.</paragraph>
+
+<paragraph><speech>"Ready, Bill?"</speech> Mr. Summers asked. and Bill Hutchinson, with one quick glance around at his wife and
+children. nodded.</paragraph>
+
+<paragraph><speech>"Remember,"</speech> Mr. Summers said. <speech>"take the slips and keep them folded until each person has taken one.
+Harry, you help little Dave."</speech> Mr. Graves took the hand of the little boy, who came willingly with him up
+to the box. <speech>"Take a paper out of the box, Davy."</speech> Mr. Summers said. Davy put his hand into the box and
+laughed. <speech>"Take just one paper."</speech> Mr. Summers said. <speech>"Harry, you hold it for him."</speech> Mr. Graves took the
+child's hand and removed the folded paper from the tight fist and held it while little Dave stood next to
+him and looked up at him wonderingly.</paragraph>
+
+<paragraph><speech>"Nancy next,"</speech> Mr. Summers said. Nancy was twelve, and her school friends breathed heavily as she went
+forward switching her skirt, and took a slip daintily from the box <speech>"Bill, Jr.,"</speech> Mr. Summers said, and Billy,
+his face red and his feet overlarge, near knocked the box over as he got a paper out. <speech>"Tessie,"</speech> Mr.
+Summers said. She hesitated for a minute, looking around defiantly. and then set her lips and went up to
+the box. She snatched a paper out and held it behind her.</paragraph>
+
+<paragraph><speech>"Bill,"</speech> Mr. Summers said, and Bill Hutchinson reached into the box and felt around, bringing his hand
+out at last with the slip of paper in it.</paragraph>
+
+<paragraph>The crowd was quiet. A girl whispered, <speech>"I hope it's not Nancy,"</speech> and the sound of the whisper reached the
+edges of the crowd.</paragraph>
+
+<paragraph><speech>"It's not the way it used to be."</speech> Old Man Warner said clearly. <speech>"People ain't the way they used to be."</speech></paragraph>
+
+<paragraph><speech>"All right,"</speech> Mr. Summers said. <speech>"Open the papers. Harry, you open little Dave's."</speech></paragraph>
+
+<paragraph>Mr. Graves opened the slip of paper and there was a general sigh through the crowd as he held it up and
+everyone could see that it was blank. Nancy and Bill. Jr. opened theirs at the same time. and both
+beamed and laughed. turning around to the crowd and holding their slips of paper above their heads.</paragraph>
+
+<paragraph><speech>"Tessie,"</speech> Mr. Summers said. There was a pause, and then Mr. Summers looked at Bill Hutchinson, and
+Bill unfolded his paper and showed it. It was blank.</paragraph>
+
+<paragraph><speech>"It's Tessie,"</speech> Mr. Summers said, and his voice was hushed. <speech>"Show us her paper. Bill."</speech></paragraph>
+
+<paragraph>Bill Hutchinson went over to his wife and forced the slip of paper out of her hand. It had a black spot on
+it, the black spot Mr. Summers had made the night before with the heavy pencil in the coal company
+office. Bill Hutchinson held it up, and there was a stir in the crowd.</paragraph>
+
+<paragraph><speech>"All right, folks."</speech> Mr. Summers said. <speech>"Let's finish quickly."</speech></paragraph>
+
+<paragraph>Although the villagers had forgotten the ritual and lost the original black box, they still remembered to
+use stones. The pile of stones the boys had made earlier was ready; there were stones on the ground with
+the blowing scraps of paper that had come out of the box Delacroix selected a stone so large she had to
+pick it up with both hands and turned to Mrs. Dunbar. <speech>"Come on,"</speech> she said. <speech>"Hurry up."</speech></paragraph>
+
+<paragraph>Mr. Dunbar had small stones in both hands, and she said. gasping for breath. <speech>"I can't run at all. You'll
+have to go ahead and I'll catch up with you."</speech></paragraph>
+
+<paragraph>The children had stones already. And someone gave little Davy Hutchinson few pebbles.</paragraph>
+
+<paragraph>Tessie Hutchinson was in the center of a cleared space by now, and she held her hands out desperately as
+the villagers moved in on her. <speech>"It isn't fair,"</speech> she said. A stone hit her on the side of the head. Old Man
+Warner was saying, <speech>"Come on, come on, everyone."</speech> Steve Adams was in the front of the crowd of
+villagers, with Mrs. Graves beside him.</paragraph>
+
+<paragraph><speech>"It isn't fair, it isn't right,"</speech> Mrs. Hutchinson screamed, and then they were upon her.</paragraph>
+
+
+</maintext>
+</shortstory>

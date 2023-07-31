@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="ex03.css"?>
+<!DOCTYPE Collection [
+	<!ELEMENT	Collection 	 (record)*>
+	<!ELEMENT	record	 (title | creator | subject)*>
+	<!ATTLIST	record	
+		date 	CDATA	#REQUIRED
+		encoder 	CDATA 	#REQUIRED
+		 recNum	ID		#REQUIRED
+ 	>	
+	<!ELEMENT	title	 (#PCDATA)>
+	<!ELEMENT	creator	 (#PCDATA)>
+	<!ELEMENT	subject	 (#PCDATA)>
+	<!ATTLIST	subject 
+		terms 	 (DDC | LCC | LCSH | UDC | MeSH) 	#REQUIRED
+	>
+ ]>
+<!-- draft, not ready for final use yet -->
+<!-- wasn't sure if I needed to retain the comments, so I left the one above and added another for good measure -->
+<Collection>
+<record recNum="SS-0001" encoder="C. L. Rangel" date="2023-07-15">
+	<title>Extracts from Adam's diary</title>
+	<creator>Mark Twain</creator>
+	<subject terms="LCSH">Adam (Biblical figure) -- Fiction.</subject>
+    <subject terms="LCSH">Short stories, American -- 19th century.</subject>
+	<subject terms="LCC">PS1309</subject>
+</record>
+<record recNum="SS-0002" date="2023-07-15" encoder="C. L. Rangel" >
+	<title>The fall of the house of Usher</title>
+	<creator>Edgar Allan Poe</creator>
+	<subject terms="LCSH">Horror tales, American -- 19th century.</subject>
+	<subject terms="LCC">PS2614</subject>
+</record>
+<record date="2023-07-15" encoder="C. L. Rangel" recNum="SS-0003">
+	<title>The lottery</title>
+	<creator>Shirley Jackson</creator>
+	<subject terms="LCSH">Horror tales, American -- 20th century.</subject>
+	<subject terms="LCC">PS3519.A392</subject>
+</record>
+<record recNum="SS-0004" encoder="C. L. Rangel" date="2023-07-15">
+	<title>I have no mouth, and I must scream</title>
+	<creator>Harlan Ellison</creator>
+	<subject terms="LCSH">Fantasy fiction, American.</subject>
+	<subject terms="LCC">PS3555.L62</subject>
+</record>
+</Collection>

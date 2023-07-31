@@ -1,0 +1,71 @@
+shortstory {
+	display: block;
+	font-size: 13pt;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #0000FF;
+	text-align: justify;
+	background-color: #ffe7cc;
+	margin: 24px;
+	padding: 12px;
+}
+
+cpmetadata {display:none;}
+dcmetadata {display:none;}
+
+
+frontmatter {
+	display: block;
+	font-size: 28pt;
+	font-variant: small-caps;
+	text-align: center;
+	margin: 24px;
+	padding: 24px 24px 18px;
+}
+
+title {
+	display: block;
+	font-size: 28pt;
+	font-variant: small-caps;
+	text-align: center;
+	margin: 24px;
+	padding: 24px 24px 18px;
+}
+author {
+	display: block;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 14pt;
+	margin: 3px;
+	text-align: right;
+}
+
+date {
+	display: block;
+	font-size: 12pt;
+	font-style: italic;
+	text-align: center;
+}
+
+firstparagraph {
+	display: block;
+	margin: 36px 18px 18px;
+} 
+
+firstparagraph:first-letter {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-right: 3pt;
+  font-size: 200%;
+  font-style: italic;
+  color: #000099;
+}
+
+paragraph {display: block; margin: 18px; text-indent: 24px;}
+
+speech {
+	font-size: 13pt;
+	color: #9900FF;
+}	
+i {
+	font-style: italic;
+}

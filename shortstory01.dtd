@@ -1,0 +1,34 @@
+<!ELEMENT shortstory (metadata,  maintext)>
+
+<!ELEMENT metadata (encoder, descriptive, subject)>
+
+<!ENTITY % pname "firstname, middlename?, lastname">
+
+<!ELEMENT encoder ((%pname;), comment*)>
+<!ATTLIST encoder email_address CDATA #REQUIRED> 
+
+<!ELEMENT comment (#PCDATA)>
+
+<!ELEMENT descriptive (title, author+, publication_year*, translator*)>
+
+<!ELEMENT subject (LCC?, DDC?, LCSH+)>
+
+<!ELEMENT LCC (#PCDATA)>
+<!ELEMENT DDC (#PCDATA)>
+<!ELEMENT LCSH (#PCDATA)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (%pname;)>
+<!ELEMENT translator (%pname;)>
+
+<!ELEMENT publication_year (#PCDATA)>
+<!ELEMENT maintext (firstparagraph, paragraph*)>
+
+<!ELEMENT firstparagraph (#PCDATA | speech)*> 
+<!ELEMENT paragraph (#PCDATA | speech)*>
+<!ELEMENT speech (#PCDATA)>
+
+<!-- If full name is not known, use just initial with period for firstname and middlename -->
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT middlename (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>

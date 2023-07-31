@@ -1,0 +1,84 @@
+<!ENTITY % pname "(firstname, middlename?, lastname)">
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT middlename (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+
+<!ELEMENT html:a (%pname;)?>
+<!ATTLIST html:a 
+		href CDATA #IMPLIED
+		target CDATA #IMPLIED>
+
+<!ENTITY % frontmatter "(html:img?, titlepage*, tableofcontents?, listoffigures?, preface*, foreword*, dedication*, acknowledgment*, errata*, frontispiece*)">
+
+<!ELEMENT html:img  EMPTY>
+<!ATTLIST html:img 
+		src CDATA #IMPLIED
+		style CDATA #IMPLIED>
+
+<!ENTITY % titleinfo "(title | subtitle | author | translator | date | note)*">
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT date (#PCDATA) >
+
+
+<!ELEMENT author (html:a?, html:img?)>
+
+<!ELEMENT book (metadata, frontmatter, body, end)>
+<!ATTLIST book 
+	xmlns CDATA #FIXED "http://www.kwongbor.net/KBCollectionNames/"
+	xmlns:html CDATA #FIXED "http://www.w3.org/1999/xhtml"> 
+
+<!ELEMENT metadata (dc:title | dc:creator | dc:subject | dc:description | dc:publisher | dc:contributor | dc:date | dc:type | dc:format | dc:identifier | dc:source | dc:language | dc:relation | dc:coverage | dc:rights)*>
+<!ATTLIST metadata xmlns:dc CDATA #FIXED "http://purl.org/dc/elements/1.1/"> 
+<!ELEMENT dc:title (#PCDATA) >
+<!ELEMENT dc:creator (#PCDATA) >
+<!ELEMENT dc:subject (#PCDATA) >
+<!ELEMENT dc:description (#PCDATA) >
+<!ELEMENT dc:publisher (#PCDATA) >
+<!ELEMENT dc:contributor (#PCDATA) >
+<!ELEMENT dc:date (#PCDATA) >
+<!ELEMENT dc:type (#PCDATA) >
+<!ELEMENT dc:format (#PCDATA) >
+<!ELEMENT dc:identifier (#PCDATA) >
+<!ELEMENT dc:source (#PCDATA) >
+<!ELEMENT dc:language (#PCDATA) >
+<!ELEMENT dc:relation (#PCDATA) >
+<!ELEMENT dc:coverage (#PCDATA) >
+<!ELEMENT dc:rights (#PCDATA) >
+
+<!ELEMENT frontmatter (%frontmatter;)>
+<!ELEMENT titlepage %titleinfo;>
+
+<!ELEMENT body (part | chapter | subchapter | paragraph | poem | note)* >
+<!ELEMENT part (frontmatter?, body, end?, note*)>
+<!ELEMENT chapter (frontmatter?, body, end?, note*)>
+<!ELEMENT subchapter (paragraph | note)*>
+
+<!ELEMENT paragraph (#PCDATA  | poem | reference | emp | ital | quote | html:span)*>
+<!ATTLIST paragraph class CDATA #IMPLIED>
+
+<!ELEMENT html:span (#PCDATA)>
+<!ATTLIST html:span style CDATA #IMPLIED>
+
+<!ELEMENT poem (line)*>
+<!ELEMENT line (#PCDATA)>
+<!ELEMENT emp (#PCDATA)>
+<!ELEMENT ital (#PCDATA)>
+<!ELEMENT quote (#PCDATA)>
+<!ELEMENT reference (#PCDATA)>
+<!ATTLIST reference 	type 	(footnote-num | footnote-ref) 	#REQUIRED
+						ref		ID								#IMPLIED>
+
+
+<!ELEMENT note (paragraph*)>
+<!ATTLIST note		class 	CDATA 	#REQUIRED
+					id		IDREF	#IMPLIED>
+
+<!ELEMENT end (appendix | bibliography | endnotes | glossary | index | note )*>
+
+<!-- decimal character references for some common HTML character references -->
+<!ENTITY mdash   "&#8212;" >	<!-- em dash -->
+<!ENTITY lsquo   "&#8216;" >		<!-- left single quotation mark -->
+<!ENTITY rsquo   "&#8217;" >		<!-- right single quotation mark -->
+<!ENTITY ldquo   "&#8220;" >		<!-- left double quotation mark -->
+<!ENTITY rdquo   "&#8221;" >		<!-- right double quotation mark -->
+<!ENTITY nbsp    "&#160;"  >		<!-- nonbreaking space -->

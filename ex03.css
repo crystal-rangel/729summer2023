@@ -1,0 +1,4 @@
+Collection {display: block;}
+record {display: block; margin: 24px;}
+title, creator, subject {display: block;}
+title {font-weight: bold;}

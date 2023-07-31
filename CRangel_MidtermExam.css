@@ -1,0 +1,155 @@
+book{
+	color:blue; 
+	background-color:lavender; 
+	text-align:justify; 
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	position: absolute;
+	left: 0px; /* for IE */
+	top: 0px; /* for IE */
+	margin: 0px; /*for IE */
+	padding-left: 50px;
+	padding-right: 30px;
+	background-attachment: fixed; 
+	background-position: left top; 
+	/* IE not render well for background-positin right & bottom if left & top are 0 */
+	background-image: url(KBDL.gif);
+	background-repeat: no-repeat;
+	}
+	
+metadata {display:none;}
+
+frontmatter {
+	display: block;
+	border: solid; 
+	background-color: aliceblue; 
+	margin: 10px; 
+	padding: 10px;
+	height: 300px;
+	}
+
+title{
+  display: block; 
+  color: red;
+  text-align: center;
+  font-size: 300%;
+  margin-top: 24px;
+  margin-bottom: 18px;
+  font-weight: bold;
+  font-variant: small-caps;
+  letter-spacing: 3px;
+}
+
+
+chapter frontmatter {
+	display: block;
+	height: auto;
+	border: none;
+	background-color: lavender; 
+	margin: 0px;
+	}
+
+author{
+  display:block;
+  text-align:right; 
+  font-size:120%;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-right: 10px;
+}
+
+date{display:none;}
+
+/* descendant element; use the rule of the most specific */
+chapter title{
+  display:block;
+  text-align:center;
+  font-size:120%;
+  margin-top:60px;
+  margin-bottom:20px;
+  padding:10px;
+  font-weight:bold;
+  background-color:red;
+  color:lavender;
+}
+
+paragraph{
+  display:block;
+  text-align:justify;
+  text-indent:50px;
+  margin-top:15px;
+  margin-bottom:15px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+/* IE support first-letter, but it will count punctuation marks also
+as letters; Firefox will not consider punctuation marks as letters. */
+
+
+/* For browswer that can support class selector, e.g., IE 7 */
+/* Firefox 1.5 support class selector only in XHTML, not in XML */
+paragraph.firstpara{text-indent:0px;} 
+/* paragraph.firstpara:first-letter {display:inline; font-size:300%;}  */
+
+/* For browser that can support first-child pseudo class, e.g., Firefox */
+/* There are claims that IE 7.0 can support first-child pesudo class, but it does not work here. */
+
+paragraph:first-child{text-indent:0px;} 
+/* paragraph:first-child:first-letter {display:inline; font-size:300%;}  */
+
+/* 	some browser may treat 
+		paragraph:first-child:first-letter 
+	the same as 
+		paragraph:first-letter	
+	so we need to cascade the effect using the following rule, which will not affect 
+		paragraph.firstpara:first-letter
+	because the latter is more specific
+*/
+/* paragraph:first-letter {display:inline; font-size:100%}   */
+
+/* use of class attribute */
+/* IE 6.0 does not support child selector, so we do not use "note>paragraph"
+we use "note paragraph" instead, alternatively we can also use class selector,
+something like "note.footnote". */
+/* On the other hand, Firefox 1.5 supports class selector in XHTML and HTML, but does not support the 
+class attribute in XML, so we cannot use "note.footnote", but we can use "note>paragraph" */
+
+note paragraph{
+  display:block;
+  text-align:justify;
+  font-size:90%;
+  text-indent:0pt; 
+  border:1px solid brown; 
+  margin: 24pt;
+  padding:6pt;
+  background-color:cornsilk;
+}
+
+
+/* 	IE 6.0 does not support attribute selector, so we do not use something like	reference[type="footnote-num"] 
+	and reference[type="footnote-ref"],	instead, we use the rule of the most specific. */
+
+reference{
+	display: inline;
+	vertical-align:super;
+	font-size:60%; 
+	color:#FFFFFF;
+	background-color: #000000;
+	border: 1px solid brown;
+	}
+
+note paragraph reference{
+	display: inline;
+	vertical-align:super;
+	font-size:60%; 
+	color: brown;
+	background-color:cornsilk;
+	border:none;
+	}
+
+emp,ital{
+  display:inline;
+  font-style:italic;
+}
+  

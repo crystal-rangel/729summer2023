@@ -1,0 +1,7 @@
+lyrics, title, author, year, content, line {color: blue; display: block;
+margin: 0.5em; font-family: Arial;}
+title {font-size: 28pt; font-variant: small-caps; text-indent: 3em;}
+author {font-style: italic; font-size: 14pt; text-indent: 10em;}
+year {font-size: 12pt; text-indent: 14em; font-style: italic;}
+content {margin: 2em;}
+line {font-size: 12pt; text-indent: 4em;}
