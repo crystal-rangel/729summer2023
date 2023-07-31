@@ -1,0 +1,88 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.loc.gov/MARC21/slim MARC21slim.xsd">
+  <record>
+    <leader>01267nam  2200325 i 4500</leader>
+    <controlfield tag="001">56955920</controlfield>
+    <controlfield tag="003">OCoLC</controlfield>
+    <controlfield tag="005">20070305165916.0</controlfield>
+    <controlfield tag="008">041102r20051949nyua   000 1 eng</controlfield>
+    <datafield tag="010" ind1=" " ind2=" ">
+      <subfield code="a">2004062825 </subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">0374529531 (pbk. : alk. paper)</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9780374529536 (pbk. : alk. paper)</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">DLC</subfield>
+      <subfield code="b">eng</subfield>
+      <subfield code="c">DLC</subfield>
+      <subfield code="d">C#P</subfield>
+      <subfield code="d">BAKER</subfield>
+      <subfield code="d">CRH</subfield>
+    </datafield>
+    <datafield tag="042" ind1=" " ind2=" ">
+      <subfield code="a">lcac</subfield>
+    </datafield>
+    <datafield tag="050" ind1="0" ind2="0">
+      <subfield code="a">PZ8.A542</subfield>
+      <subfield code="b">Ug 1995</subfield>
+    </datafield>
+    <datafield tag="082" ind1="0" ind2="0">
+      <subfield code="a">839.8/136</subfield>
+      <subfield code="a">[E]</subfield>
+      <subfield code="2">20</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Andersen, H.C.</subfield>
+      <subfield code="q">(Hans Christian),</subfield>
+      <subfield code="d">1805-1875.</subfield>
+    </datafield>
+    <datafield tag="240" ind1="1" ind2="0">
+      <subfield code="a">Grimme aelling.</subfield>
+      <subfield code="l">English</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="4">
+      <subfield code="a">The ugly duckling /</subfield>
+      <subfield code="c">by Hans Christian Andersen ;  illustrated by Lisa McCue.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Racine, Wis. :</subfield>
+      <subfield code="b">Western Pub.,</subfield>
+      <subfield code="c">c1995.</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">1 v. (unpaged) :</subfield>
+      <subfield code="b">col. ill. ;</subfield>
+      <subfield code="c">21 cm.</subfield>
+    </datafield>
+    <datafield tag="490" ind1="0" ind2=" ">
+      <subfield code="a">Little golden books</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">"A Golden book."</subfield>
+    </datafield>
+    <datafield tag="520" ind1=" " ind2=" ">
+      <subfield code="a">An ugly duckling spends an unhappy year ostracized by the other animals before he grows into a beautiful swan.</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="1">
+      <subfield code="a">Fairy tales.</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="a">Andersen, H. C.</subfield>
+      <subfield code="q">(Hans Christian),</subfield>
+      <subfield code="d">1805-1875</subfield>
+      <subfield code="t">Grimme aelling.</subfield>
+      <subfield code="l">English.</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="a">McCue, Lisa,</subfield>
+      <subfield code="e">ill.</subfield>
+    </datafield>
+  </record>
+</collection>
