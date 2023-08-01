@@ -3,6 +3,7 @@
 <collection xmlns="http://www.loc.gov/MARC21/slim"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://www.loc.gov/MARC21/slim MARC21slim.xsd">
+  <!--I could not find a good print version MARC record to work with for this title, so I used an OCLC record for the online version on OverDrive. Since I was referencing a specific online resource, I retained the Overdrive info and link.-->
   <record>
     <leader>01267nam a2200217 i 4500</leader>
     <controlfield tag="001">862066927</controlfield>
