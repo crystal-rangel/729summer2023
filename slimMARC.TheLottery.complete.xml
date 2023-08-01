@@ -4,32 +4,27 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://www.loc.gov/MARC21/slim MARC21slim.xsd">
   <record>
-    <leader>01267nam  2200325 i 4500</leader>
-    <controlfield tag="001">56955920</controlfield>
-    <controlfield tag="003">OCoLC</controlfield>
-    <controlfield tag="005">20070305165916.0</controlfield>
-    <controlfield tag="008">041102r20051949nyua   000 1 eng</controlfield>
+    <leader>01267cam a2200217 i 4500</leader>
+    <controlfield tag="001">14750375</controlfield>
+    <controlfield tag="003">DLC</controlfield>
+    <controlfield tag="005">20080310143015.0</controlfield>
+    <controlfield tag="008">070227s2008    mnua   000 1 eng</controlfield>
     <datafield tag="010" ind1=" " ind2=" ">
-      <subfield code="a">2004062825 </subfield>
+      <subfield code="a">2007008487 </subfield>
     </datafield>
     <datafield tag="020" ind1=" " ind2=" ">
-      <subfield code="a">0374529531 (pbk. : alk. paper)</subfield>
-    </datafield>
-    <datafield tag="020" ind1=" " ind2=" ">
-      <subfield code="a">9780374529536 (pbk. : alk. paper)</subfield>
+      <subfield code="a">9781583415849 (alk. paper)</subfield>
     </datafield>
     <datafield tag="040" ind1=" " ind2=" ">
       <subfield code="a">DLC</subfield>
       <subfield code="b">eng</subfield>
       <subfield code="e">rda</subfield>
       <subfield code="c">DLC</subfield>
-      <subfield code="d">C#P</subfield>
-      <subfield code="d">BAKER</subfield>
-      <subfield code="d">CRH</subfield>
+      <subfield code="d">DLC</subfield>
     </datafield>
-    <datafield tag="050" ind1="1" ind2="0">
+    <datafield tag="050" ind1="0" ind2="0">
       <subfield code="a">PS3519.A392 </subfield>
-      <subfield code="b">A6 2005</subfield>
+      <subfield code="b">L6 2008</subfield>
     </datafield>
     <datafield tag="082" ind1="0" ind2="0">
       <subfield code="a">813/.54</subfield>
@@ -40,24 +35,27 @@
       <subfield code="d">1916-1965.</subfield>
     </datafield>
     <datafield tag="245" ind1="1" ind2="4">
-      <subfield code="a">The lottery and other stories /</subfield>
+      <subfield code="a">The lottery /</subfield>
       <subfield code="c">Shirley Jackson.</subfield>
     </datafield>
-    <datafield tag="246" ind1="1" ind2="8">
-      <subfield code="a">Lottery</subfield>
-    </datafield>
     <datafield tag="264" ind1=" " ind2="1">
-      <subfield code="a">New York :</subfield>
-      <subfield code="b">Farrar, Straus and Giroux,</subfield>
-      <subfield code="c">2005.</subfield>
+      <subfield code="a">Mankato, MN :</subfield>
+      <subfield code="b">Creative Education,</subfield>
+      <subfield code="c">c2008.</subfield>
     </datafield>
     <datafield tag="300" ind1=" " ind2=" ">
-      <subfield code="a">xii, 302 pages :</subfield>
-      <subfield code="c">21 cm.</subfield>
+      <subfield code="a">32 pages :</subfield>
+      <subfield code="b">ill. (some col.) ;</subfield>
+      <subfield code="c">26 cm.</subfield>
     </datafield>
     <datafield tag="336" ind1=" " ind2=" ">
       <subfield code="a">text</subfield>
       <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">still image</subfield>
+      <subfield code="b">sti</subfield>
       <subfield code="2">rdacontent</subfield>
     </datafield>
       <datafield tag="337" ind1=" " ind2=" ">
@@ -73,25 +71,46 @@
     <datafield tag="380" ind1=" " ind2=" ">
       <subfield code="a">Fiction</subfield>
     </datafield>
-    <datafield tag="500" ind1=" " ind2=" ">
-      <subfield code="a">"A Golden book."</subfield>
+    <datafield tag="490" ind1="1" ind2=" ">
+      <subfield code="a">Creative short stories</subfield>
     </datafield>
     <datafield tag="520" ind1=" " ind2=" ">
-      <subfield code="a">An ugly duckling spends an unhappy year ostracized by the other animals before he grows into a beautiful swan.</subfield>
+      <subfield code="a">Shirley Jackson's classic The Lottery portrays a small town that gathers to hold its yearly lottery, a barbaric game of chance. Each head of household draws a slip, and the family with the marked slip will lose a member to stoning by the townsfolk.</subfield>
     </datafield>
-    <datafield tag="650" ind1=" " ind2="1">
-      <subfield code="a">Fairy tales.</subfield>
+    <datafield tag="526" ind1="0" ind2=" ">
+      <subfield code="a">Accelerated Reader AR</subfield>
+      <subfield code="b">UG</subfield>
+      <subfield code="c">5.9</subfield>
+      <subfield code="d">1.0</subfield>
+      <subfield code="z">7921</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="0">
+      <subfield code="a">Rituals and ceremonies.</subfield>
+      <subfield code="v">Fiction</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="0">
+      <subfield code="a">Horror tales, American.</subfield>
+      <subfield code="y">20th century</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="0">
+      <subfield code="a">Short stories, American.</subfield>
+      <subfield code="y">20th century</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Short stories.</subfield>
+      <subfield code="2">lcgft</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Horror fiction.</subfield>
+      <subfield code="2">lcgft</subfield>
     </datafield>
     <datafield tag="700" ind1="1" ind2=" ">
-      <subfield code="a">Andersen, H. C.</subfield>
-      <subfield code="q">(Hans Christian),</subfield>
-      <subfield code="d">1805-1875</subfield>
-      <subfield code="t">Grimme aelling.</subfield>
-      <subfield code="l">English.</subfield>
+      <subfield code="a">Jackson, Shirley, </subfield>
+      <subfield code="d">1916-1965.</subfield>
+      <subfield code="t">Lottery.</subfield>
     </datafield>
-    <datafield tag="700" ind1="1" ind2=" ">
-      <subfield code="a">McCue, Lisa,</subfield>
-      <subfield code="e">ill.</subfield>
+    <datafield tag="830" ind1=" " ind2="0">
+      <subfield code="a">Creative short stories.</subfield>
     </datafield>
   </record>
 </collection>
