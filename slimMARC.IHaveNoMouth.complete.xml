@@ -1,0 +1,125 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.loc.gov/MARC21/slim MARC21slim.xsd">
+  <record>
+    <leader>01267nam a2200217 i 4500</leader>
+    <controlfield tag="001">862066927</controlfield>
+    <controlfield tag="003">OCoLC</controlfield>
+    <controlfield tag="008">131104t20081967nyu  o  000 1 eng</controlfield>
+    <controlfield tag="006">m     o  d</controlfield>
+    <datafield tag="007" ind1=" " ind2=" ">
+     <subfield code="a">c</subfield>
+     <subfield code="b">r</subfield>
+     <subfield code="d">c</subfield>
+     <subfield code="e">n</subfield>
+     <subfield code="f">u</subfield>
+     <subfield code="h">u</subfield>
+     <subfield code="i">n</subfield>
+     <subfield code="j">u</subfield>
+     <subfield code="k">u</subfield>
+     <subfield code="l">u</subfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9780759286627</subfield>
+      <subfield code="q">(electronic bk.)</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">0759286620</subfield>
+      <subfield code="q">(electronic bk.)</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9781497609617</subfield>
+      <subfield code="q">(electronic bk.)</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">1497609615</subfield>
+      <subfield code="q">(electronic bk.)</subfield>
+    </datafield>
+    <datafield tag="037" ind1=" " ind2=" ">
+      <subfield code="a">C21D1518-077B-4D91-9F39-A1277C20E00E </subfield>
+      <subfield code="b">OverDrive, Inc.</subfield>
+      <subfield code="n">https://www.overdrive.com/</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">TEFOD</subfield>
+      <subfield code="b">eng</subfield>
+      <subfield code="e">rda</subfield>
+      <subfield code="c">TEFOD</subfield>
+      <subfield code="d">OCLCF</subfield>
+    </datafield>
+    <datafield tag="050" ind1="0" ind2="4">
+      <subfield code="a">PS3555.L62</subfield>
+    </datafield>
+    <datafield tag="082" ind1="0" ind2="4">
+      <subfield code="a">813.54</subfield>
+      <subfield code="2">23</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="a">Ellison, Harlan,</subfield>
+      <subfield code="e">author.</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">I have no mouth &amp; I must scream /</subfield>
+      <subfield code="c">by Harlan Ellison.</subfield>
+    </datafield>
+    <datafield tag="246" ind1="3" ind2="0">
+        <subfield code="a">I have no mouth and I must scream</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">New York :</subfield>
+      <subfield code="b">E-Reads,</subfield>
+      <subfield code="c">2008.</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="4">
+      <subfield code="c">c1967</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">1 online resource</subfield>
+    </datafield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+      <subfield code="a">computer</subfield>
+      <subfield code="b">c</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+      <subfield code="a">online resource</subfield>
+      <subfield code="b">cr</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield tag="380" ind1=" " ind2=" ">
+      <subfield code="a">Fiction</subfield>
+    </datafield>
+    <datafield tag="490" ind1="1" ind2=" ">
+      <subfield code="a">The Harlan Ellison Collection</subfield>
+    </datafield>
+    <datafield tag="520" ind1=" " ind2=" ">
+      <subfield code="a">Over the course of his legendary career, Harlan Ellison has defied-and sometimes defined-modern fantasy literature, all while refusing to allow any genre to claim him. A Grand Master of the Science Fiction Writers of America, winner of the Lifetime Achievement Award from the Horror Writers Association as well as winner of countless awards, including the Hugo, Nebula, Edgar Allan Poe and Bram Stoker, Ellison is as unpredictable as he is unique, irrepressible as he is infuriating. E-Reads is proud to publish over thirty titles in Ellison's brilliant catalog, now available in an elegant new package featuring Ellison himself. Genius never felt so combustible. Among Ellison's more famous stories, two consistently noted as among his very best ever are the Hugo Award-winning, postapocalyptic title story of this collection of seven shorts and the volumes concluding story, Pretty Maggie Moneyeyes. Since Ellison himself strongly resists categorization of his work, we wont call them science fiction, or SF, or speculative fiction or horror or anything else except compelling reading experiences that utterly unique. They could only have been written by the great Harlan Ellison and they are incomparably original.</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="0">
+      <subfield code="a">Short stories, American.</subfield>
+      <subfield code="y">20th century</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Short stories.</subfield>
+      <subfield code="2">lcgft</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="a">Jackson, Shirley, </subfield>
+      <subfield code="d">1916-1965.</subfield>
+      <subfield code="t">Lottery.</subfield>
+    </datafield>
+    <datafield tag="830" ind1=" " ind2="0">
+      <subfield code="a">Harlan Ellison collection.</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="0">
+        <subfield code="3">OverDrive</subfield>
+      <subfield code="u">https://www.overdrive.com/search?q=C21D1518-077B-4D91-9F39-A1277C20E00E</subfield>
+    </datafield>
+  </record>
+</collection>

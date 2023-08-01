@@ -4,11 +4,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://www.loc.gov/MARC21/slim MARC21slim.xsd">
   <record>
-    <leader>01267cam a2200217 i 4500</leader>
+    <leader>01267nam a2200217 i 4500</leader>
     <controlfield tag="001">14750375</controlfield>
     <controlfield tag="003">DLC</controlfield>
     <controlfield tag="005">20080310143015.0</controlfield>
-    <controlfield tag="008">070227s2008    mnua   000 1 eng</controlfield>
+    <controlfield tag="008">070227s2008    mnua     000 1 eng</controlfield>
     <datafield tag="010" ind1=" " ind2=" ">
       <subfield code="a">2007008487 </subfield>
     </datafield>
