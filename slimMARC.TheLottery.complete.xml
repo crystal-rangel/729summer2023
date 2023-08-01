@@ -21,48 +21,57 @@
     <datafield tag="040" ind1=" " ind2=" ">
       <subfield code="a">DLC</subfield>
       <subfield code="b">eng</subfield>
+      <subfield code="e">rda</subfield>
       <subfield code="c">DLC</subfield>
       <subfield code="d">C#P</subfield>
       <subfield code="d">BAKER</subfield>
       <subfield code="d">CRH</subfield>
     </datafield>
-    <datafield tag="042" ind1=" " ind2=" ">
-      <subfield code="a">lcac</subfield>
-    </datafield>
-    <datafield tag="050" ind1="0" ind2="0">
-      <subfield code="a">PZ8.A542</subfield>
-      <subfield code="b">Ug 1995</subfield>
+    <datafield tag="050" ind1="1" ind2="0">
+      <subfield code="a">PS3519.A392 </subfield>
+      <subfield code="b">A6 2005</subfield>
     </datafield>
     <datafield tag="082" ind1="0" ind2="0">
-      <subfield code="a">839.8/136</subfield>
-      <subfield code="a">[E]</subfield>
-      <subfield code="2">20</subfield>
+      <subfield code="a">813/.54</subfield>
+      <subfield code="2">22</subfield>
     </datafield>
     <datafield tag="100" ind1="1" ind2=" ">
-      <subfield code="a">Andersen, H.C.</subfield>
-      <subfield code="q">(Hans Christian),</subfield>
-      <subfield code="d">1805-1875.</subfield>
-    </datafield>
-    <datafield tag="240" ind1="1" ind2="0">
-      <subfield code="a">Grimme aelling.</subfield>
-      <subfield code="l">English</subfield>
+      <subfield code="a">Jackson, Shirley,</subfield>
+      <subfield code="d">1916-1965.</subfield>
     </datafield>
     <datafield tag="245" ind1="1" ind2="4">
-      <subfield code="a">The ugly duckling /</subfield>
-      <subfield code="c">by Hans Christian Andersen ;  illustrated by Lisa McCue.</subfield>
+      <subfield code="a">The lottery and other stories /</subfield>
+      <subfield code="c">Shirley Jackson.</subfield>
     </datafield>
-    <datafield tag="260" ind1=" " ind2=" ">
-      <subfield code="a">Racine, Wis. :</subfield>
-      <subfield code="b">Western Pub.,</subfield>
-      <subfield code="c">c1995.</subfield>
+    <datafield tag="246" ind1="1" ind2="8">
+      <subfield code="a">Lottery</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">New York :</subfield>
+      <subfield code="b">Farrar, Straus and Giroux,</subfield>
+      <subfield code="c">2005.</subfield>
     </datafield>
     <datafield tag="300" ind1=" " ind2=" ">
-      <subfield code="a">1 v. (unpaged) :</subfield>
-      <subfield code="b">col. ill. ;</subfield>
+      <subfield code="a">xii, 302 pages :</subfield>
       <subfield code="c">21 cm.</subfield>
     </datafield>
-    <datafield tag="490" ind1="0" ind2=" ">
-      <subfield code="a">Little golden books</subfield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+      <subfield code="a">unmediated</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+      <subfield code="a">volume</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield tag="380" ind1=" " ind2=" ">
+      <subfield code="a">Fiction</subfield>
     </datafield>
     <datafield tag="500" ind1=" " ind2=" ">
       <subfield code="a">"A Golden book."</subfield>
