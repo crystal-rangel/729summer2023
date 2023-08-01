@@ -9,17 +9,7 @@
     <controlfield tag="003">OCoLC</controlfield>
     <controlfield tag="008">131104t20081967nyu  o  000 1 eng</controlfield>
     <controlfield tag="006">m     o  d</controlfield>
-    <datafield tag="007" ind1=" " ind2=" ">
-     <subfield code="a">c</subfield>
-     <subfield code="b">r</subfield>
-     <subfield code="d">c</subfield>
-     <subfield code="e">n</subfield>
-     <subfield code="f">u</subfield>
-     <subfield code="h">u</subfield>
-     <subfield code="i">n</subfield>
-     <subfield code="j">u</subfield>
-     <subfield code="k">u</subfield>
-     <subfield code="l">u</subfield>
+    <controlfield tag="007">crcn nnna----</controlfield>   
     <datafield tag="020" ind1=" " ind2=" ">
       <subfield code="a">9780759286627</subfield>
       <subfield code="q">(electronic bk.)</subfield>
