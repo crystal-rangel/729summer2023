@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods version="3.8" ID="JacksonS-0001"
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.loc.gov/mods/v3" 
+	xsi:schemaLocation="http://www.loc.gov/mods/v3 mods-3-8.xsd"
+>
+
+<titleInfo ID="JacksonS-0001A">
+<nonSort>The </nonSort>
+<title>lottery</title>
+</titleInfo>
+
+<titleInfo ID="JacksonS-0001B" type="uniform" authority="naf" >
+<title>Lottery</title>
+</titleInfo>
+
+<name type="personal" authority="naf" >
+<namePart>Jackson, Shirley</namePart>
+<namePart type="date" >1916-1965</namePart>
+<role>
+<roleTerm type="text">author</roleTerm>
+</role>
+</name>
+
+<typeOfResource>text</typeOfResource>
+
+<genre authority="marcgt"> fiction </genre>
+<genre authority="lcgft"> Short stories </genre>
+<genre authority="lcgft"> Horror fiction </genre> 
+
+<language><languageTerm type="code" authority="iso639-2b"> eng </languageTerm>
+</language> 
+
+<physicalDescription> <internetMediaType> xml </internetMediaType> 
+<form authority="marcform"> electronic </form> </physicalDescription> 
+
+<targetAudience authority="marctarget"> general </targetAudience>
+
+<subject authority="lcsh"><topic> Rituals and ceremonies </topic> <genre> Fiction </genre> </subject>
+<subject authority="lcsh"><genre> Short stories, American </genre> <temporal> 20th century </temporal> </subject> 
+<subject authority="lcsh"><genre> Horror tales, American </genre> </temporal> 20th century </temporal> </subject> 
+
+<classification authority="lcc"> PS3519.A392 </classification> 
+
+<identifier type="uri">https://purl.archive.org/net/729summer/crangel/lottery/text</identifier> 
+
+<location> 
+<url dateLastAccessed="2023-08-04">https://crystalrangel.000webhostapp.com/729/Jackson.TheLottery.Namespace.xml</url> 
+</location> 
+
+<recordInfo> 
+<recordCreationDate encoding="marc">230804</recordCreationDate> 
+</recordInfo> 
+</mods>
