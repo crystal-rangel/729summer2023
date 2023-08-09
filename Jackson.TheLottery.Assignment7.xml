@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="shortstory01.xsl"?>
-<kbng:fairytale
+<clr:shortstory
   xmlns:clr="https://crystalrangel.000webhostapp.com/729/metadata"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://crystalrangel.000webhostapp.com/729/metadata book-clr-v01.xsd"
@@ -337,5 +337,5 @@ villagers, with Mrs. Graves beside him.</clr:paragraph>
 
 <clr:paragraph><clr:speech>"It isn't fair, it isn't right,"</clr:speech> Mrs. Hutchinson screamed, and then they were upon her.</clr:paragraph>
 
-
 </clr:maintext>
+</clr/shortstory>
