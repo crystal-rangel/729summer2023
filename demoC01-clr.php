@@ -1,13 +1,13 @@
 <?php 
 
 	$xsl = new domDocument();
-  $xsl->load("fairytale01.s7.xsl"); 
+  $xsl->load("shortstory01.xsl"); 
 
   $proc = new xsltprocessor;
   $proc->importStylesheet($xsl); 
 	
   $document = new domDocument();
-  $document->load("Andersen-UglyDuckling02.xml");
+  $document->load("Jackson.TheLottery.Assignment7.xml");
 
   print $proc->transformToXml($document);
 
