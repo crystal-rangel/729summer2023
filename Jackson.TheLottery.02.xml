@@ -1,6 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone ="no"?>
-<?xml-stylesheet type="text/css" href="shortstory01.css"?>
-<!DOCTYPE shortstory SYSTEM "shortstory01.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="shortstory01.xsl"?>
+<kbng:fairytale
+  xmlns:kbng="http://www.kwongbor.net/myTeaching"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.kwongbor.net/myTeaching book-v01.xsd"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dcmitype="http://purl.org/dc/dcmitype/" 
+  FileID="FT-HCA-TUD-01">
 
 <shortstory>
 <metadata>
