@@ -9,8 +9,8 @@
 	</xsd:annotation>
 	<xsd:include schemaLocation="qualifieddc.xsd"/>
 	<xsd:import namespace="http://www.loc.gov/mods/v3" schemaLocation="mods-3-7.xsd"/>
-	<xsd:element name="fairytale" type="clr:fairytaleType"/>
-	<xsd:complexType name="fairytaleType">
+	<xsd:element name="shortstory" type="clr:shortstoryType"/>
+	<xsd:complexType name="shortstoryType">
 		<xsd:sequence>
 			<xsd:element ref="clr:metadata"/>
 			<xsd:element ref="clr:maintext"/>
