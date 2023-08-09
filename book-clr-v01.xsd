@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:clr="https://crystalrangel.000webhostapp.com/729/metadata" targetNamespace="https://crystalrangel.000webhostapp.com/729/metadata" xmlns:mods="http://www.loc.gov/mods/v3" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:documentation xml:lang="en">
+       An XML schema for book with qualified DC metadata
+       For v01, the metadata only allows DC, now it also allows MODS
+       Replaced kbng with clr.
+     </xsd:documentation>
+	</xsd:annotation>
+	<xsd:include schemaLocation="qualifieddc.xsd"/>
+	<xsd:import namespace="http://www.loc.gov/mods/v3" schemaLocation="mods-3-7.xsd"/>
+	<xsd:element name="fairytale" type="clr:fairytaleType"/>
+	<xsd:complexType name="fairytaleType">
+		<xsd:sequence>
+			<xsd:element ref="clr:metadata"/>
+			<xsd:element ref="clr:maintext"/>
+		</xsd:sequence>
+		<xsd:attribute name="FileID" type="xsd:ID" use="required"/>
+	</xsd:complexType>
+	<xsd:element name="metadata">
+		<xsd:complexType>
+			<xsd:choice minOccurs="0" maxOccurs="unbounded">
+				<xsd:element ref="clr:qualifieddc"/>
+				<xsd:element ref="mods:mods"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="maintext">
+		<xsd:complexType>
+			<xsd:choice minOccurs="0" maxOccurs="unbounded">
+				<xsd:element name="paragraph" type="clr:paragraphType"/>
+				<xsd:element ref="clr:speech"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:complexType name="paragraphType" mixed="true">
+		<xsd:sequence>
+			<xsd:element ref="clr:speech" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:element name="speech" type="xsd:string"/>
+</xsd:schema>
